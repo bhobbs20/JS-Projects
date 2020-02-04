@@ -21,3 +21,8 @@ function myFirstFunction() {
     document.getElementById("Green_Text").innerHTML = result;
 }
 
+function myUpperFunction() {
+    var x = document.getElementById("upper");
+    x.value = x.value.toUpperCase();
+}
+
