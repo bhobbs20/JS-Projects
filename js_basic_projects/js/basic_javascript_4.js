@@ -6,6 +6,8 @@ function bruinsDictionary() {
         points: "74",
         place: "1st",
     };
-    document.getElementById("dictionary").innerHTML = Team.name + " " + Team.place;
+    delete Team.division;
+    // document.getElementById("dictionary").innerHTML = Team.name + " " + Team.place;
+    document.getElementById("dictionary").innerHTML = Team.division; 
 
 }
