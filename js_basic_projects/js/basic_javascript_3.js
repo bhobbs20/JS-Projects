@@ -52,6 +52,14 @@ function minus_one() {
     x--;
     document.getElementById("minus").innerHTML = x + " Minus Incr";
 }
+
+window.alert("Random Number: " + Math.random() * 100);
 // var y = 5;
 // y++;
 // document.write( y);
+
+function roundNumber() {
+  var x = Math.random() * 100;
+  result = Math.round(x);
+  document.getElementById("round-num").innerHTML = result; 
+}
