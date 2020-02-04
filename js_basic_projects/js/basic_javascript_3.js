@@ -17,3 +17,8 @@ function division() {
     var simple_math = 48 / 6;
     document.getElementById("math").innerHTML = "48 / 6 = " + simple_math;
 }
+
+function more_Math() {
+    var simple_Math = (1 + 2) * 10 / 2 -5;
+    document.getElementById("math").innerHTML = " 1 plus 2, multiplied by 10, divided in half and then subtracted by 5 equals " + simple_Math;
+}
