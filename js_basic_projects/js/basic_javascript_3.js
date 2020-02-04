@@ -32,3 +32,26 @@ function negation_Operator() {
     var x = 10;
     document.getElementById("math").innerHTML = -x;
 }
+
+// var x = 5.25;
+// x--;
+// document.write(x);
+function showNumber() {
+    var number = 10;
+    document.getElementById("equals").innerHTML = number;
+}
+
+function add_one() {
+    x = 10;
+    x++;
+    document.getElementById("add").innerHTML = x + " Plus Incr";
+}
+
+function minus_one() {
+    x = 10;
+    x--;
+    document.getElementById("minus").innerHTML = x + " Minus Incr";
+}
+// var y = 5;
+// y++;
+// document.write( y);
