@@ -64,3 +64,19 @@ function mealCost() {
     }
     document.getElementById('meal_price').innerHTML = meal;
 }
+
+function timeFunction() {
+    var time = new Date().getHours();
+    var reply;
+
+    if (time < 12 == time > 0) {
+        reply = "It is morning time";
+    }
+    else if (time > 12 == time < 18) {
+        reply = "it is afternoon";
+    }
+    else {
+         reply = "it is evening";
+    }
+    document.getElementById("time_of_day").innerHTML = reply;
+}
