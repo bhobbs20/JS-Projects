@@ -53,3 +53,15 @@ function newPrecise() {
     var result = new_number.toString();
     document.getElementById("precision-two").innerHTML = result;
 }
+
+function fixMethod() {
+    var num = 5.56789;
+    var number = num.toFixed(3);
+    document.getElementById("fixed").innerHTML = number;
+}
+
+function valeOfMethod() {
+    var my_string = "pasta";
+    var value_string = my_string.valueOf();
+    document.getElementById("value").innerHTML = value_string;
+}
