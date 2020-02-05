@@ -42,3 +42,25 @@ var number = 24;
 if (number < 32) {
     document.write("Whats up");
 }
+
+function ageFunction() {
+    Age = document.getElementById("age").value;
+    if (Age >= 18) {
+        Vote = "You are older enough to vote";
+    }
+    else {
+        Vote = "You are not old enough to vote";
+    }
+    document.getElementById("your_age").innerHTML = Vote;
+}
+
+function mealCost() {
+    meal_cost = document.getElementById('meal').value;
+    if (meal_cost < 20.01) {
+        meal = "Meal is $20.01, You dont have enough money too eat."; 
+    }
+    else {
+        meal = "Meal is $20.01, You can buy lunch, ENJOY.";
+    }
+    document.getElementById('meal_price').innerHTML = meal;
+}
