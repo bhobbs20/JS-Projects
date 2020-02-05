@@ -39,13 +39,13 @@ function my_function() {
 // h = 67;
 // document.write(t === h);
 
-document.write(5 > 2 && 10 > 4);
+// document.write(5 > 2 && 10 > 4);
 
-document.write(5 > 10 && 10 > 4);
+// document.write(5 > 10 && 10 > 4);
 
-document.write( 5 > 10 || 10 > 4);
+// document.write( 5 > 10 || 10 > 4);
 
-document.write(5 > 10 || 10 > 20);
+// document.write(5 > 10 || 10 > 20);
 
 // function not_fucntion() {
 //     document.getElementById("not").innerHTML = !(5 > 10);
@@ -54,3 +54,6 @@ document.write(5 > 10 || 10 > 20);
 function not_function() {
     document.getElementById("not").innerHTML = !(20 > 10);
 }
+
+document.write(Bigger = (5 > 1) ? "left number" : "Right number is bigger");
+
