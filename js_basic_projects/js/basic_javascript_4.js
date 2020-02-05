@@ -11,3 +11,6 @@ function bruinsDictionary() {
     document.getElementById("dictionary").innerHTML = Team.division; 
 
 }
+
+document.write(typeof "word");
+document.write(typeof 3);
