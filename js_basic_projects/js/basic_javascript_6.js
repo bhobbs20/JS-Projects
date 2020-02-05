@@ -66,3 +66,25 @@ function Dog(Breed, Weight, Color, Name) {
 }
 
 var dog_1 = new Dog("boxer", "50", "brown", "Roxy");
+
+/** NESTED FUNCTIONS */
+
+function count_Function() {
+    document.getElementById("Counting").innerHTML = Count();
+    function Count() {
+        var Starting_point = 9;
+        function Plus_one() {Starting_point += 1;}
+        Plus_one();
+        return Starting_point;
+    }
+}
+
+function minus_Function() {
+    document.getElementById("Nested_Function").innerHTML = subtraction();
+    function subtraction() {
+        var x = 15;
+        function subtractByOne() { x -= 1;}
+        subtractByOne();
+        return x;
+    }
+}
