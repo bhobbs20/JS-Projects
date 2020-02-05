@@ -12,3 +12,34 @@ function canVote() {
     can_vote = (age >= 18) ? "You are old enough to vote" : "You are not old enough to vote";
     document.getElementById('able').innerHTML = can_vote;
 }
+
+function Vehicle(Make, Model, Year, Color) {
+    this.Vehicle_Make = Make;
+    this.Vehicle_Model = Model;
+    this.Vehicle_Year = Year;
+    this.Vehicle_Color = Color;
+}
+
+var Jack = new Vehicle("Dodge", "Viper", 2020, "Red");
+var Emily = new Vehicle("Jeep", "Trail Hawk", 2019, "White and Black");
+var Erick = new Vehicle("Ford", "Pinto", 1971, "Mustard");
+
+function myFunction() {
+    document.getElementById("Keywords_and_Constructors").innerHTML = "Erick drives a " + Erick.Vehicle_Color + " - colored " + Erick.Vehicle_Model + " manufactured in " + Erick.Vehicle_Year;
+}
+
+
+function Player(Name, Position, Shot, Age) {
+    this.Player_Name = Name;
+    this.Player_Position = Position;
+    this.Player_Shot = Shot;
+    this.Player_Age = Age;
+}
+
+var pasta = new Player("David Pastrnak", "Right Wing", "Right", "22");
+var bergy = new Player("Patric Bergeron", "Center", "Left", "32");
+var marchie = new Player("Brad Marchand", "Left Wing", "Left", "30");
+
+function getPlayer() {
+    document.getElementById("New_and_This").innerHTML = "Starting at " + pasta.Player_Position +  ", with a " +  pasta.Player_Shot + "  shot, and at the age of: " + pasta.Player_Age + ", " + pasta.Player_Name;
+}
