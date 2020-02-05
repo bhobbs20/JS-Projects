@@ -46,3 +46,11 @@ document.write(5 > 10 && 10 > 4);
 document.write( 5 > 10 || 10 > 4);
 
 document.write(5 > 10 || 10 > 20);
+
+// function not_fucntion() {
+//     document.getElementById("not").innerHTML = !(5 > 10);
+// }
+
+function not_function() {
+    document.getElementById("not").innerHTML = !(20 > 10);
+}
