@@ -31,3 +31,13 @@ function searchWords() {
     var player = players.search("Pastarnak");
     document.getElementById('search-players').innerHTML = "At position: " + player;
 }
+
+function stringMethod() {
+    var x = 182;
+    document.getElementById('numbers_to_string').innerHTML = x.toString();
+}
+
+function newStringMethod() {
+    var number = 5230;
+    document.getElementById('number-two').innerHTML = number.toString() + " is now a string";
+}
