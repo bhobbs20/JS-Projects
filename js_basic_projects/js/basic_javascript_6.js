@@ -28,6 +28,7 @@ function myFunction() {
     document.getElementById("Keywords_and_Constructors").innerHTML = "Erick drives a " + Erick.Vehicle_Color + " - colored " + Erick.Vehicle_Model + " manufactured in " + Erick.Vehicle_Year;
 }
 
+/** THIS AND NEW */
 
 function Player(Name, Position, Shot, Age) {
     this.Player_Name = Name;
@@ -43,3 +44,25 @@ var marchie = new Player("Brad Marchand", "Left Wing", "Left", "30");
 function getPlayer() {
     document.getElementById("New_and_This").innerHTML = "Starting at " + pasta.Player_Position +  ", with a " +  pasta.Player_Shot + "  shot, and at the age of: " + pasta.Player_Age + ", " + pasta.Player_Name;
 }
+
+/** END THIS AND NEW */
+
+/** Assign a variable the value of a reserved word. Attempt to display this in the browser. */
+/** uncaught reference error */
+function reserve() {
+    var private = mike;
+    document.getElementById('reserve').innerHTML = private;
+}
+
+/** end */
+
+/** object constructor function */
+
+function Dog(Breed, Weight, Color, Name) {
+    this.Dog_Breed = Breed;
+    this.Dog_Weight = Weight;
+    this.Dog_Color = Color;
+    this.Dog_Name = Name;
+}
+
+var dog_1 = new Dog("boxer", "50", "brown", "Roxy");
