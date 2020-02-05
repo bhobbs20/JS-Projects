@@ -41,3 +41,15 @@ function newStringMethod() {
     var number = 5230;
     document.getElementById('number-two').innerHTML = number.toString() + " is now a string";
 }
+
+function preciseMeth() {
+    var number = 12938.301298726353529;
+    document.getElementById("precision").innerHTML = number.toPrecision(10);
+}
+
+function newPrecise() {
+    var number = 2342.9356273;
+    var new_number = number.toPrecision(12);
+    var result = new_number.toString();
+    document.getElementById("precision-two").innerHTML = result;
+}
