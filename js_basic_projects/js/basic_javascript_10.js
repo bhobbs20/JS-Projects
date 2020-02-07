@@ -54,3 +54,22 @@ document.write(stick);
     document.write("<br>" + stick)
 }
 document.write("<br>" + stick);
+
+
+function myStick(stick) {
+  return "My favorite hockey stick is  " + stick;
+}
+document.write("<br>" + "<br>" + myStick("Baur"));
+
+
+let player = {
+    name: "Liam Hobbs",
+    age: "6",
+    position: "left wing",
+    number: "12",
+    note : function() {
+        return "Wings player, " + this.name + ", plays " + this.position + " and is number " + this.number + ".";
+    }
+};
+
+document.write("<br>" + "<br>" + player.note());
