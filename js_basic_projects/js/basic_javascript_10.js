@@ -45,3 +45,12 @@ function constant() {
     hockeyStick.team = "Bruins";
     document.getElementById("constant").innerHTML = "My favorite hockey stick brand is " + hockeyStick.brand + " with a flex of " + hockeyStick.flex + " used by the " + hockeyStick.team;
 }
+
+
+var stick = "baur";
+document.write(stick);
+{ 
+    let stick = "ccm"
+    document.write("<br>" + stick)
+}
+document.write("<br>" + stick);
