@@ -71,5 +71,21 @@ let player = {
         return "Wings player, " + this.name + ", plays " + this.position + " and is number " + this.number + ".";
     }
 };
-
 document.write("<br>" + "<br>" + player.note());
+
+
+var number = " ";
+for (num = 0; num < 100; num++) {
+    if (num === 78) { break ;}
+    number += "Ray Bourque is number: " + num + "<br>";
+}
+document.write("<br>" + "<br>" + number);
+
+
+var numbers = "";
+var numNum;
+for (numNum = 1; numNum < 23; numNum++) {
+    if (numNum === 8) { continue; }
+    numbers += "My least favorite number is " + numNum + "<br>"
+}
+document.write("<br>" + "<br>" + numbers);
